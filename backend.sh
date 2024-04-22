@@ -21,6 +21,6 @@ dnf install mysql -y
 
 mysql -h mysql-dev.sumanthguntur320.online -uroot -pExpenseApp@1 < /app/schema/backend.sql
 
-systemctl daemon-reload
+ systemctl daemon-reload
 systemctl enable backend
 systemctl restart backend
